@@ -17,7 +17,7 @@ public class Sub {
 		for (String val : map.values()) {
 			System.out.println(val);
 		}
-		
+
 		//put
 		//get
 		//remove
