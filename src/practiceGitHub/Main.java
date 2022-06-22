@@ -82,5 +82,7 @@ public class Main {
 			Map.Entry<Integer, String> entry = iterator.next();
 			//System.out.println(entry.getKey() + " : " + entry.getValue());
 		}
+
+		//System.out.println("よくわからんくなってきた");
 	}
 }
