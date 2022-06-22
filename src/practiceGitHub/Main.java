@@ -70,6 +70,8 @@ public class Main {
 		gs.setNumber(10);
 		System.out.println(gs.getNumber());
 
+		//watasi
+
 
 	}
 }
