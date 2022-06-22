@@ -19,6 +19,5 @@ public class practiceGetterSetter {
 	public void setNumber(int number) {
 	    this.number = number;
 	}
-
-
+	
 }
