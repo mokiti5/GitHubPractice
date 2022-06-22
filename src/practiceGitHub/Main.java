@@ -82,5 +82,31 @@ public class Main {
 		*/
 
 
+
+		//配列2つをMap型に合成する
+		String[] strMap = {"山田","田中","佐藤","黒田"};
+		int[] numMap = {1,2,3,4};
+
+		Map<Integer,String> map = Sub.arrayToMap(numMap, strMap);
+
+		for(Iterator<Map.Entry<Integer, String>> iterator = map.entrySet().iterator() ; iterator.hasNext() ;){
+			Map.Entry<Integer, String> entry = iterator.next();
+			//System.out.println(entry.getKey() + " : " + entry.getValue());
+		}
+
+		//System.out.println("よくわからんくなってきた");
+
+		/*
+		Gitの用語
+		マージ・・・加えた修正を統合する作業をします。変更を加えたブランチを元のブランチにマージして修正します。
+		コミット・・・追加・変更したファイルをリポジトリに記録します。
+		プル・・・リモートリポジトリのコミットをローカルリポジトリに送り込みます。
+		プルリクエスト・・・開発者のローカルリポジトリでの変更を他の開発者に通知するGitHubの機能です。
+		プッシュ・・・ローカルリポジトリの内容をリモートリポジトリに反映させます
+		フェッチ・・・リモートリポジトリの最新の履歴の取得を行います。取得を行うのみなので、マージが自動で行われないのがpullとの違い
+		コンフリクト・・・Gitの場合同じファイルの同じ場所への変更が同時にある時に生じるエラーのことを言います。
+		*/
+
+
 	}
 }
