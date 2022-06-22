@@ -4,8 +4,10 @@ import java.util.*;
 
 public class Main {
 	public static void main(String[] args ) {
+
+		System.out.println("こんにちは世界");
 		//競技プログラミング中に使用したJavaの文法をまとめておく
-		Scanner sc = new Scanner(System.in);
+		//Scanner sc = new Scanner(System.in);
 
 		//★型変換
 
@@ -20,9 +22,9 @@ public class Main {
 
 
 		//文字列→Long型への変換
-		long input = sc.nextInt();
+		//long input = sc.nextInt();
 		String inputToString = "";
-		input = Long.valueOf(inputToString);
+		//input = Long.valueOf(inputToString);
 
 
 		//LISTから配列へ(整数型)
@@ -58,6 +60,16 @@ public class Main {
 		Collections.shuffle(lists);
 		list.toArray(Card);
 		//System.out.println(Arrays.toString(Card));
+
+		//Sub.mapPractice();
+
+
+
+		//getter・setter練習
+		practiceGetterSetter gs = new practiceGetterSetter();
+		gs.setNumber(10);
+		System.out.println(gs.getNumber());
+
 
 	}
 }
