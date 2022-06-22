@@ -61,7 +61,15 @@ public class Main {
 		list.toArray(Card);
 		//System.out.println(Arrays.toString(Card));
 
-		Sub.mapPractice();
+		//Sub.mapPractice();
+
+
+
+		//getter・setter練習
+		practiceGetterSetter gs = new practiceGetterSetter();
+		gs.setNumber(10);
+		System.out.println(gs.getNumber());
+
 
 	}
 }

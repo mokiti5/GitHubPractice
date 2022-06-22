@@ -28,3 +28,26 @@ public class Sub {
 		//size
 	}
 }
+
+//int d = sc.nextInt();
+//int n = sc.nextInt();
+//
+//int result =0;
+//int tmp = 0;
+//
+//switch (d) {
+//	case 0:
+//		result = n;
+//		break;
+//	case 1:
+//		tmp = 100;
+//		result = tmp*n;
+//		break;
+//	case 2:
+//		tmp = 10000;
+//		result = tmp*n;
+//		break;
+//
+//}
+//
+//System.out.println(result);
