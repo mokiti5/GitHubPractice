@@ -18,6 +18,15 @@ public class Sub {
 			System.out.println(val);
 		}
 
+	}
+	//staticの使用。呼び出す際にインスタンス化が不必要
+	public static Map<Integer, String> arrayToMap (int[] num,String[] str){
+		Map<Integer, String> map = new HashMap<>();
+		for(int i=0;i < num.length;i++) {
+			map.put(num[i],str[i]);
+			}
+		return map;
+	}
 		//put
 		//get
 		//remove
@@ -26,7 +35,6 @@ public class Sub {
 		//containsKey
 		//containsValue
 		//size
-	}
 }
 
 //int d = sc.nextInt();

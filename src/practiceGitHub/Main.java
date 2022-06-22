@@ -71,5 +71,16 @@ public class Main {
 		System.out.println(gs.getNumber());
 
 
+
+		//配列2つをMap型に合成する
+		String[] strMap = {"山田","田中","佐藤","黒田"};
+		int[] numMap = {1,2,3,4};
+
+		Map<Integer,String> map = Sub.arrayToMap(numMap, strMap);
+
+		for(Iterator<Map.Entry<Integer, String>> iterator = map.entrySet().iterator() ; iterator.hasNext() ;){
+			Map.Entry<Integer, String> entry = iterator.next();
+			//System.out.println(entry.getKey() + " : " + entry.getValue());
+		}
 	}
 }
