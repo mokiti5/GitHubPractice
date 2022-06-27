@@ -35,6 +35,19 @@ public class Sub {
 		//containsKey
 		//containsValue
 		//size
+
+
+
+
+	//https://www.fenet.jp/java/column/java_tips/6779/
+	//値渡し
+	//「値(プリミティブ)型の中身をコピーして渡すもの」
+	//参照渡し(Javaでは実装されていない)
+	//「変数のアドレスを渡すもの」
+	//参照の値渡し
+	//Javaでは、オブジェクトを初期化しようとすると、今までの領域はそのままにして新しい領域を確保してしまう
+
+
 }
 
 

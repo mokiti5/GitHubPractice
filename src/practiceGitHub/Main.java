@@ -27,7 +27,7 @@ public class Main {
 		//割った余りを求める  %
 		//＋　ー　＊　/
 		int shou = 100%2;
-		System.out.println(shou);
+		//System.out.println(shou);
 
 		//★型変換
 
@@ -88,7 +88,7 @@ public class Main {
 		//getter・setter練習
 		practiceGetterSetter gs = new practiceGetterSetter();
 		gs.setNumber(10);
-		System.out.println(gs.getNumber());
+		//System.out.println(gs.getNumber());
 
 
 
@@ -105,8 +105,13 @@ public class Main {
 		}
 
 
+		//乱数生成のプログラム
+		Random rand = new Random();
+		int num = rand.nextInt(10) ; //0~9
+		int num2 = rand.nextInt(200) - 100;//-100~99
+		//System.out.println(num);
 		//swich文を書いていく。ネストせずに早期にreturn、breakを
-		int jouken = 0;
+		int jouken = rand.nextInt(3);
 		String result = "";
 		//boolean jouken = true;
 
@@ -122,8 +127,23 @@ public class Main {
 			break;
 		}
 
+		//while文
+		while (true) {
+			break;
+		}
+
+
+		//再起処理。メソッドの中で同じメソッドを呼び出す。
+		System.out.println("再帰処理の結果："+ saiki(5));
 
 	}
-}
 
+	static int saiki(int n) {
+		if(n<=0) {
+			return 1;
+		}else {
+			return saiki(n-1)*n;
+		}
+	}
+}
 
